@@ -53,6 +53,11 @@ table {
   --white-font: white;
 }
 
+#container {
+  display: flex;
+}
+
+/* Banner styles */
 .banner-container {
   display: flex;
   height: 100vh;
@@ -77,5 +82,27 @@ table {
 h1 {
   font-family: 'Norse', cursive, sans-serif;
   color: var(--white-font);
-  font-size: 5em;
+  font-size: 5rem;
+}
+
+/* Form styles */
+
+.form-container {
+  width: 60vw;
+}
+
+.description {
+  font-family: 'helvetica', sans-serif;
+  position: relative;
+  top: 15vh;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 30px;
+  margin-left: 30px;
+  width: 40vw;
+  line-height: 1.2;
+}
+
+.description > p:first-child {
+  margin-bottom: 25px;
 }
