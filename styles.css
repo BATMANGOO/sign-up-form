@@ -75,7 +75,7 @@ table {
 }
 
 h1 {
-  font-family: Norse;
+  font-family: 'Norse', cursive, sans-serif;
   color: var(--white-font);
   font-size: 5em;
 }
